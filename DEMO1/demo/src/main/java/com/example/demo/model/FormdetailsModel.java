@@ -10,6 +10,8 @@ public class FormdetailsModel {
 	private String fileId;
 	private String userName;
 	private Date createdOn;
+	private String fileName;
+	
 	
 	public Date getCreatedOn() {
 		return createdOn;
@@ -47,5 +49,11 @@ public class FormdetailsModel {
 	}
 	public void setUserName(String userName) {
 		this.userName = userName;
+	}
+	public String getFileName() {
+		return fileName;
+	}
+	public void setFileName(String fileName) {
+		this.fileName = fileName;
 	}
 }

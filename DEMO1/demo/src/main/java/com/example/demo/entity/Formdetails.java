@@ -20,6 +20,7 @@ public class Formdetails {
 	private String formDesc;
 	private String fileId;
 	private String userName;
+	private String fileName;
 	
 	@Temporal(TemporalType.TIMESTAMP)
 	private Date createdOn;
@@ -59,6 +60,13 @@ public class Formdetails {
 	}
 	public void setUserName(String userName) {
 		this.userName = userName;
+	}
+
+	public String getFileName() {
+		return fileName;
+	}
+	public void setFileName(String fileName) {
+		this.fileName = fileName;
 	}
 	
 }
